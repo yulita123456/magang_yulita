@@ -1,0 +1,91 @@
+.img-full{
+    width: 600,46px;
+    height: 515px;
+    border: 1px;
+    display: flex;
+}
+
+.left-main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    bottom: 500px;
+    width: 531px;
+    height: 400px;
+    gap: 35px;
+    
+    
+}
+.col-lg-6 .img-nav{
+    display: flex;
+    flex-direction: column;
+    width: 219,54px;
+    height: 56px;
+    gap: 10px;
+    background-color: blue;
+}
+.col ul{
+    width:1.440 px;
+    height: 68px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0px, 100px, 0px, 100px;
+    margin-top: 25px;
+}
+
+    
+.container ul li a{
+    text-decoration: none;
+    color:#000000 ;
+
+}
+.button{
+    justify-content: space-between;
+}
+
+.col-lg {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px, 100px, 0px, 100px;
+    gap: 95.91px;
+    width: 1.440px;
+}
+
+.col-lg-5{
+    background-color: #B9FF66;
+    background-size: auto;
+    margin-top: 50px;
+    width: Hug (178px)px;
+    height: Hug (51px)px;
+    gap: 40px;
+    opacity: 0px;
+
+}
+.col-lg-6{
+    margin-top: 50px;
+    width: Hug (178px)px;
+    height: Hug (51px)px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.col-lg-7{
+    width: 550px;
+    height: 50px;
+    background-color: azure;
+    
+}
+
+.card-img-top{
+    width: 210px;
+    height: 147.62px;
+    gap: 0px;
+    opacity: 0px;
+    justify-content: left;
+
+    
+}
