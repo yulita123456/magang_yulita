@@ -1,89 +1,132 @@
-.img-full{
-    width: 600,46px;
-    height: 515px;
-    border: 1px;
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.left-main-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    bottom: 500px;
-    width: 531px;
-    height: 400px;
-    gap: 35px;
-    
-    
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
 }
-.col-lg-6 .img-nav{
-    display: flex;
-    flex-direction: column;
-    width: 219,54px;
-    height: 56px;
-    gap: 10px;
-    background-color: blue;
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
-.col ul{
-    width:1.440 px;
-    height: 68px;
+
+.header-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
     list-style: none;
-    justify-content: space-between;
-    gap: 40px;
-    padding: 0px, 100px, 0px, 100px;
-    margin-top: 25px;
-}
-
-    
-.container ul li a{
-    text-decoration: none;
-    color:#000000 ;
-
-}
-.button{
-    justify-content: space-between;
-}
-
-.col-lg {
     display: flex;
-    justify-content: space-between;
-    padding: 0px, 100px, 0px, 100px;
-    gap: 95.91px;
-    width: 1.440px;
 }
 
-.col-lg-5{
-    background-color: #B9FF66;
-    background-size: auto;
-    margin-top: 50px;
-    width: Hug (178px)px;
-    height: Hug (51px)px;
-    gap: 0px;
-    opacity: 0px;
-
-}
-.col-lg-6{
-    margin-top: 50px;
-    width: Hug (178px)px;
-    height: Hug (51px)px;
-    gap: 0px;
-    opacity: 0px;
-
+nav ul li {
+    margin: 0 10px;
 }
 
-.col-lg-7{
-    width: 550px;
-    height: 50px;
-    background-color: azure;
-    
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
-.card-img-top{
-    width: 210px;
-    height: 170px;
+.cta-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
-.grid-item-1 {
-    display: grid;
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .consultation {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.clients img {
+    max-width: 100px;
+    margin: 0 10px;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
