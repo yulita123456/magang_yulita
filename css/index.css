@@ -21,6 +21,12 @@
 
 .logo-container {
     flex: 1;
+    width: Hug (219.54px)px;
+    height: Hug (56px)px;
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
 }
 
 .nav-container {
@@ -34,6 +40,11 @@
     list-style: none;
     display: flex;
     gap: 40px;
+    width: Hug (811px)px;
+    height: Hug (68px)px;
+    margin-top: 20px;
+
+
 }
 
 .nav-list li {
@@ -49,6 +60,7 @@
 
 .button {
     margin-left: auto;
+    margin-top: 20px;
 }
 
 .button .btn {
@@ -57,6 +69,7 @@
     padding: 10px 20px;
     cursor: pointer;
     font-size: 1em;
+    border-radius: 14px;
 }
 
 .button .btn:hover {
@@ -69,9 +82,11 @@
     height: 515px;
     border: 1px;
     display: flex;
+    margin-top: 30px;
 }
 
 .left-main-text{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -99,6 +114,22 @@
     text-align: left;
 
 }
+
+.btn-main .btn {
+    width: 264px;
+    height: 68px;
+    padding: 20px 35px 20px 35px;
+    gap: 10px;
+    border-radius: 14px;
+    
+
+}
+.btn:hover {
+    background-color: #191A23;
+    ;
+}
+
+
 .col-lg-6 .img-nav{
     display: flex;
     flex-direction: column;
@@ -112,7 +143,7 @@
 }
 
 .col-lg {
-    margin-top: 20px;
+    margin-top: 50px;
     width: Fixed 1,440px;
     height: 48px;
     display: flex;
@@ -121,6 +152,7 @@
 }
 .img-company{
     gap: 95.91px;
+
 }
 
 .col-lg-5{
@@ -130,30 +162,40 @@
     margin-right: 50px;
     width: 15%;
     height: 55px;
-    border-radius: 10%;
+    border-radius: 7px;
+    gap: 40px;
     font-family: 'Space Grotesk';
+    text-align: left;
 
 }
 .col-lg-7{
     font-family: 'Space Grotesk';
-    margin-top: 145px;
-    width: Hug (178px)px;
-    height: Hug (51px)px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 46px;
     gap: 40px;
-
+    font-size: 18px;
+    line-height: 22.97px;
+    font-weight: 400px;
 }
 
 .card{
+    margin:0px ;
+    margin-bottom: -40px;
     display: flex;
     margin-top: 50px;
-    width: Hug (178px)px;
-    height: Hug (51px)px;
+    width: fixed 600px;
+    height: Hug (310px)px;
     border-radius: 45px;
     padding-left: 20px;
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px 0px #191A23;
-    ;
 }
+.container .card  {
+    padding: 0 20px;   
+}
+
 .col1 .card{
     background-color: #F3F3F3;
 }
@@ -232,6 +274,7 @@
     margin-bottom: 20px;
     font-size: 30px; 
     font-weight: bold; 
+    margin-top: -6px;
     line-height: 38.28px; /* Adjust line height to match the spacing between lines */
 }
 .card-body .card-title3 {
@@ -259,6 +302,7 @@
     margin-bottom: 20px;
     font-size: 30px; 
     font-weight: bold; 
+    margin-top: -6px;
     line-height: 38.28px; /* Adjust line height to match the spacing between lines */
 }
 
