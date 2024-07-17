@@ -1,0 +1,30 @@
+/* Reset some default browser styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'space grotesk';
+}
+
+.header{
+    width: 1240px;
+    margin-right: 100px;
+    margin-top: 70px;
+    position: relative;
+}
+.logo{
+    float: left;
+}
+.navbar-list{
+    float: right;
+}
+.nav{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+}

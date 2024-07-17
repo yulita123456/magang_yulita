@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
-#main {
+.main {
     padding: 20px 0;
 }
 
 .container {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    /* background-color: rgb(164, 108, 56); */
 }
 
 .row {
@@ -20,9 +23,7 @@
 }
 
 .logo-container {
-    flex: 1;
-    width: Hug (219.54px)px;
-    height: Hug (56px)px;
+    width: 219.54px;
     padding: 10px 0px 10px 0px;
     gap: 10px;
     margin-left: 15px;
@@ -168,6 +169,10 @@
     text-align: left;
 
 }
+.container .col-lg-5-7{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
 .col-lg-7{
     font-family: 'Space Grotesk';
     margin-top: 140px;
@@ -181,14 +186,13 @@
 }
 
 .card{
-    margin:0px ;
+    justify-content: space-between;
+    padding: 50px;
     margin-bottom: -40px;
     display: flex;
     margin-top: 50px;
     width: fixed 600px;
-    height: Hug (310px)px;
     border-radius: 45px;
-    padding-left: 20px;
     border: 1px solid #191A23;
     box-shadow: 0px 5px 0px 0px #191A23;
 }
@@ -253,8 +257,7 @@
     font-family: 'Space Grotesk';
     background-color: #B9FF66;
     margin-top: 50px;
-    width: Hug (221px)px;
-    height: Hug (76px)px;
+    width: 221px;
     border-radius: 10px;
     text-align: left;
     display: flex;
@@ -268,21 +271,19 @@
     font-family: 'Space Grotesk';
     background-color: #B9FF66;
     width: 183px;
-    height: 38px;
     border-radius: 10px;
     text-align: left;
     margin-bottom: 20px;
     font-size: 30px; 
     font-weight: bold; 
-    margin-top: -6px;
+    margin-top: -3px;
     line-height: 38.28px; /* Adjust line height to match the spacing between lines */
 }
 .card-body .card-title3 {
     font-family: 'Space Grotesk';
     background-color: #F3F3F3;
     margin-top: 50px;
-    width: Hug (221px)px;
-    height: Hug (76px)px;
+    width: 221px;
     border-radius: 10px;
     text-align: left;
     display: flex;
@@ -295,14 +296,13 @@
 .card-body .card-title4 {
     font-family: 'Space Grotesk';
     background-color: #F3F3F3;
-    width: Hug 183px;
-    height: Hug 38px;
+    width: 183px;
     border-radius: 10px;
     text-align: left;
     margin-bottom: 20px;
     font-size: 30px; 
     font-weight: bold; 
-    margin-top: -6px;
+    margin-top: -2px;
     line-height: 38.28px; /* Adjust line height to match the spacing between lines */
 }
 
