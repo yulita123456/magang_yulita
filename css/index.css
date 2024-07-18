@@ -9,10 +9,10 @@
 }
 
 .container {
+    padding: 50px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1850px;
     padding: 0 20px;
     /* background-color: rgb(164, 108, 56); */
 }
@@ -20,6 +20,7 @@
 .row {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .logo-container {
@@ -44,8 +45,6 @@
     width: Hug (811px)px;
     height: Hug (68px)px;
     margin-top: 20px;
-
-
 }
 
 .nav-list li {
@@ -160,23 +159,23 @@
     background-color: #B9FF66;
     background-size: auto;
     margin-top: 115px;
-    margin-right: 50px;
+    margin-right: 40px;
     width: 15%;
-    height: 55px;
+    height: 50px;
     border-radius: 7px;
     gap: 40px;
     font-family: 'Space Grotesk';
-    text-align: left;
-
+    padding: -10px;
 }
 .container .col-lg-5-7{
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: -40px;
 }
 .col-lg-7{
     font-family: 'Space Grotesk';
     margin-top: 140px;
     margin-bottom: 20px;
+    margin-left: 0px;
     width: 600px;
     height: 46px;
     gap: 40px;
@@ -260,7 +259,6 @@
     width: 221px;
     border-radius: 10px;
     text-align: left;
-    display: flex;
     margin-bottom: 20px;
     font-size: 30px; 
     font-weight: bold; 
@@ -286,7 +284,6 @@
     width: 221px;
     border-radius: 10px;
     text-align: left;
-    display: flex;
     margin-bottom: 20px;
     font-size: 30px; 
     font-weight: bold; 
@@ -323,8 +320,3 @@
     color: #fff;
     margin-left: 5px;
 }
-
-
-
-
-
